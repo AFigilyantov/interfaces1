@@ -39,6 +39,10 @@ func main() {
 
 	TextFormating(format, "italic text")
 
+	format = CodeText{}
+
+	TextFormating(format, "code text")
+
 }
 
 type Formatter interface {
